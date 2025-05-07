@@ -1,7 +1,7 @@
 import datetime
 def mostrar_fecha():
     hoy = datetime.datetime.now()
-    print("Fecha y hora actual:", hoy.strftime("%Y-%m-%d %H:%M:%S"))
+    print("Fecha:", hoy.strftime("%Y-%m-%d %H:%M:%S"))
 
 def menu():
     while True:
